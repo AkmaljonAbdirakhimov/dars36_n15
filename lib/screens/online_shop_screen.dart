@@ -107,6 +107,9 @@ class _OnlineShopScreenState extends State<OnlineShopScreen> {
   void editProduct(int index) {
     Map<String, dynamic> oldProduct = products[index];
 
+    // nameController.text = oldProduct["title"];
+    // showDialog(context: context, builder: builder)
+
     oldProduct["title"] = "New Apple";
     oldProduct["price"] = 90.9;
     // oldProduct["image"] = "";
